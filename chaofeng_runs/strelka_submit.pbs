@@ -1,0 +1,13 @@
+#!/bin/bash
+#PBS -P 11001079
+#PBS -q normal
+#PBS -l select=1:ncpus=24:mem=96G
+#PBS -l walltime=24:00:00
+#PBS -N num1run_strelka
+
+cd /home/project/11001079/ms_data/chaofeng_runs
+chr_num=$1
+chr_dir=$2
+echo $chr_num
+echo $chr_dir
+bash /home/projects/11001079/ms_data/chaofeng_runs/scripts/run_strelka_single.sh $chr_num $chr_dir
