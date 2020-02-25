@@ -1,0 +1,1 @@
+bash /mnt/c/E/UChicago/Research/MLSystems/optimizing_accuracy/nscc_0205/array_2D/scripts_generated_freebayes/array_job_example/scripts_generated_freebayes/freebayes_21_${PBS_ARRAY_INDEX}.sh

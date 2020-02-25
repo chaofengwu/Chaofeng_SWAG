@@ -1,0 +1,10 @@
+#!/bin/bash
+#PBS -P 11001079
+#PBS -l select=1:ncpus=24:mem=96G
+#PBS -l walltime=24:00:00
+#PBS -N 21_freebayes
+#PBS -m abe
+#PBS -M chaofeng@uchicago.edu
+#PBS -J 1-81
+
+bash /mnt/c/E/UChicago/Research/MLSystems/optimizing_accuracy/nscc_0205/array_2D/scripts_generated_freebayes/array_job_example/scripts_generated_freebayes/freebayes_21_submit_bash.sh

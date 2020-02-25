@@ -1,0 +1,10 @@
+#!/bin/bash
+#PBS -P 11001079
+#PBS -l select=1:ncpus=24:mem=96G
+#PBS -l walltime=24:00:00
+#PBS -N NONE
+#PBS -m abe
+#PBS -M chaofeng@uchicago.edu
+#PBS -J 1-10
+
+bash NONE
